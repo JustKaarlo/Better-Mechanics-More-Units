@@ -1,0 +1,74 @@
+sub_units = {
+	shock_troops = {
+		abbreviation = "SHT"
+		sprite = infantry
+		map_icon_category = infantry
+		group = infantry
+
+		active = yes
+		special_forces = yes
+
+		priority = 600
+		ai_priority = 250
+
+		# TYPE
+		type = {
+			infantry
+		}
+
+		# CATEGORIES
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_special_forces
+		}
+
+		# MODIFERS
+		max_strength = 20
+		max_organisation = 70
+		default_morale = 0.30
+		manpower = 1000
+		training_time = 120
+		suppression = 0
+		weight = 0.5
+		combat_width = 2
+
+		supply_consumption = 0.06
+		breakthrough = 1.5
+		maximum_speed = 1
+		hard_attack = 1.0
+
+		# EQUIPMENT NEEDED
+		need = {
+			infantry_equipment = 150
+			support_equipment = 5
+		}
+
+		# TERRAIN
+		plains = {
+			movement = 0.12
+			attack = 0.05
+			defence = -0.05
+		}
+		snow = {
+			movement = -0.10
+		}
+		forest = {
+			movement = -0.05
+			attack = 0.05
+			defence = 0.05
+		}
+		marsh = {
+			movement = -0.15
+			attack = -0.05
+			defence = 0.05
+		}
+		jungle = {
+			movement = -0.10
+			attack = -0.05
+			defence = 0.05
+		}
+	}
+}
