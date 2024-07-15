@@ -1,7 +1,7 @@
 # Better Mechanics : More Units Development
 
 
-## TERRAIN TYPES
+### Terrain Types
 | Types         | Notes         |
 | ------------- | ------------- |
 | forest        |               |
@@ -16,7 +16,7 @@
 | amphibious    |               |
 | fort          |               |
 | snow          | This can end up stacking with terrain benefits |
-### TERRAIN MODIFIERS
+### Terrain Modifiers
 | Modifier      | Effect        |
 | ------------- | ------------- |
 | movement      | `0.00`        |
