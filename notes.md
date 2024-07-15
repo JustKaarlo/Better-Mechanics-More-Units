@@ -35,3 +35,8 @@
 | transport                 | `<equipment>` | `transport = mechanized_equipment` | Sets the speed of subunit via equipment. Used for motorized/mechanized |
 | can_exfiltrate_from_coast | `yes` `no`    | `can_exfiltrate_from_coast = yes`  | Can this subunit board convoys from a non-port location. |
 | same_support_type         | `unit_type`   | `same_support_type = recon`       | Blocks adding other recon types to template |
+
+| Option              | Note            |
+| -------------       |-------------|
+| `priority = 100`    | Controls which icon is used if multiple subunits of the same type exist |
+| `ai_priority = 100` |
