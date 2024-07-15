@@ -1,5 +1,4 @@
 ## Better Mechanics : More Units Development
-
 Here is all you need to know in-depth [Unit Modding](https://hoi4.paradoxwikis.com/Unit_modding)  
 **Please read the wiki, ok. Because everything you need to know is there.**  
 
