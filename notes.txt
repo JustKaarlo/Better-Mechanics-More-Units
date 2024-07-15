@@ -1,0 +1,378 @@
+# TERRAIN TYPES
+# forest
+# hills
+# mountain
+# plains
+# urban
+# jungle
+# marsh
+# desert
+# river
+# amphibious
+# fort
+# snow # This can end up stacking with terrain benefits
+
+# TERRAIN MODIFIERS
+# movement = 0.00
+# attack = 0.00
+# defence = 0.00
+
+# ===========================================
+
+# active = yes / no
+# Whether the unit is usable without explicit unlocking in technology
+
+# cavalry = yes
+# Used to define subunit as cavalry
+
+# special_forces = yes
+# Used to define subunit as special forces
+
+# marines = yes
+# Used to define subunit as marine
+
+# mountaineers = yes
+# Used to define subunit as mountaineers
+
+# can_be_parachuted = yes
+# Used to define subunit as paratroopers.
+
+# can_license = yes
+# Can be licesed
+
+# is_convertable = yes
+# Can be converted
+
+# carrier_capable = yes
+# Is usable in carriers (air only)
+
+# affects_speed = yes
+# Used to check if the unit will affect the template's speed, support companies have it set to no.
+
+# transport = <equipment>
+# Sets the speed of subunit via equipment. Used for motorized/mechanized
+
+# can_exfiltrate_from_coast = yes
+# Can this subunit board convoys from a non-port location. Intended for use with special forces marine templates; all non-support subunits in the division must have this flag set to yes
+
+# priority = 100
+# ai_priority = 100
+# Controls which icon is used if multiple subunits of the same type exist
+
+# same_support_type = recon 
+# blocks adding other recon types to template
+
+# ===========================================
+        
+# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+# need = {
+#     equipment_type = amount
+# }
+
+# Equipment that is required for this unit. Used when active = no
+# essential = {
+#     equipment_type
+# }
+
+# battalion_mult = {
+#     category = category_type
+#     soft_attack = 0.10
+# }
+
+# ===========================================
+
+# INTERNAL TYPES (type)
+# infantry
+# support
+# artillery
+# anti_tank
+# anti_air
+# armor
+# fighter
+# cas
+# naval_bomber
+# interceptor
+# suicide
+# tactical_bomber
+# strategic_bomber
+# air_transport
+# missile
+# submarine
+# screen_ship
+# capital_ship
+# carrier
+# motorized
+# mechanized
+# flame
+# amphibious
+
+# ===========================================
+
+# SPRITE TYPES # Controls the unit used on the map
+# infantry
+# bicycle
+# motorized
+# mechanized
+# amphibious_armor
+# amphibious_mechanized
+# anti_tank
+# armored_car
+# artillery
+# cavalry
+# camelry
+# light_armor
+# medium_armor
+# heavy_armor
+# medium_armor
+# railway_gun
+
+# ===========================================
+
+# GROUP TYPES (group)
+# infantry
+# support
+# mobile
+# armor
+
+# ===========================================
+
+# MAP ICON TYPES (map_icon_category)
+# infantry
+# armored
+# other
+# ship
+# transport
+# uboat
+
+# ===========================================
+
+# EQUIPMENT TYPES
+# infantry_equipment
+# support_equipment
+# motorized_equipment
+# mechanized_equipment
+# heavy_tank_chassis
+# light_tank_chassis
+# medium_tank_chassis
+# modern_tank_chassis
+# railway_gun_equipment
+# super_heavy_tank_chassis
+# armored_car_equipment
+# light_tank_aa_chassis
+# medium_tank_aa_chassis
+# heavy_tank_aa_chassis
+# super_heavy_tank_aa_chassis
+# modern_tank_aa_chassis
+# light_tank_artillery_chassis
+# medium_tank_artillery_chassis
+# heavy_tank_artillery_chassis
+# super_heavy_tank_artillery_chassis
+# modern_tank_artillery_chassis
+# light_tank_destroyer_chassis
+# medium_tank_destroyer_chassis
+# heavy_tank_destroyer_chassis
+# super_heavy_tank_destroyer_chassis
+# modern_tank_destroyer_chassis
+# light_tank_flame_chassis
+# medium_tank_flame_chassis
+# heavy_tank_flame_chassis
+# artillery_equipment
+# rocket_artillery_equipment
+# motorized_rocket_equipment
+# anti_air_equipment
+# anti_tank_equipment
+# amphibious_mechanized_equipment
+# amphibious_tank_chassis
+# light_tank_amphibious_chassis
+# medium_tank_amphibious_chassis
+# heavy_tank_amphibious_chassis
+
+# ===========================================
+
+# BASE
+
+# max_organisation = 20
+# Organisation indicates combat readiness and how organized a unit is.
+# Units with no organisation can't fight or move effectively.
+
+# reliability = 0.9
+# Reliability controls how often equipment will suffer random failures.
+
+# weight = 0.1
+# Weight controls how many transports a unit needs to embark.
+
+# maximum_speed = 0.5
+# Maximum speed acts as a "bonus" mulitipler to the speed determined by the unit equipment in km/h.
+# The formula for the calculated speed is <base speed> * (1 + maximum_speed)km/h; thus a maximum_speed
+# of 0.5 gives a movement speed 50% faster, a maximum_speed of 2 equals 200% faster, etc.
+
+# supply_consumption = 0.02
+# Supply consumption determmines how much supply a unit consumes per day
+
+# default_morale = 0.3
+# Default morale determines how much extra organisation can be regained
+# hourly when not in combat
+
+# combat_width = 0.5
+# Combat width determines how much this unit contributes to overall combat width.
+
+# ===========================================
+
+# COSTS
+
+# lend_lease_cost = 1
+# Space taken up in convoy
+
+# build_cost_ic = 0.4
+# Production Cost - How much factory output this piece of equipment needs
+
+# manpower = 300
+# Manpower - Cost in manpower to produce
+
+# training_time = 120
+# Training time - Time in days to train this unit
+
+# ===========================================
+
+# OFFENSIVE
+
+# attack = 0.1
+# Firepower - Amount of damage done per attack
+
+# soft_attack = -0.1
+# Soft Attack - How many attacks the unit can make versus enemies with low hardness. 
+# (In this example here, this would mean that the unit would get 10% less Soft Attack than they would usually get from its equipment
+
+# hard_attack = -0.5
+# Hard Attack - How many attacks the unit can make versus enemies with high hardness
+
+# air_attack = 1
+# Air Attack - How much damage we can do against airplanes. High Air Attack also helps to counter enemy Air Superiority effects
+
+# ap_attack = 1
+# Piercing - Having equal or greater Piercing to the targets Armor value allows you to do more damage.
+
+# breakthrough = 0.50
+# Breakthrough - How many enemy attacks a unit can attempt to avoid while on the offensive, effectively allowing it to stay on the offense longer.
+
+# ===========================================
+
+# DEFENSIVE
+
+# defense = 0.1
+# Defense - How many enemy attacks a unit can avoid whilst on the defensive, effectively allowing it to stay on the defensive longer.
+
+# max_strength = 2
+# HP - Strength represents how much damage this unit can suffer before it is destroyed
+
+# armor_value = 0
+# Armor - Armor that is higher than the opponents Piercing value reduces damage taken and allows more attacks to occur
+
+# hardness = 0.5
+# Hardness - Represents how much of your divsion is made up of armoured vehicles. High Hardness = High Hard Attacks, Low Soft Attack
+
+# entrenchment = 5
+# Entrenchment - The ability to make proper defensive entrenchments before a hostile attack
+
+# ===========================================
+
+# UNIQUE
+
+# movement = 0.1                  
+# Movement - Changes the unit's speed
+
+# experience_loss_factor = 0.1    
+# Exp. Loss - How much experience is lost in a division when they take casualities and have to replace them
+
+# casualty_trickleback = 0.2      
+# Trickleback - The proportion of losses in combat that can be saved and returned to the manpower pool
+
+# suppression_factor = 0.1        
+# Suppression bonus - Ability to supress local resistance
+
+# reliability_factor = 0.05       
+# Reliability - Applies to an equipment type's reliability and reduces the chance of breakdowns and accidents
+
+# recon = 1                       
+# Reconnaissance - Increases the chance that this unit can pick better tactics in battle
+
+# initiative = 0.2                
+# Initiative - The higher the initiative, the quicker it can reinforce into battle, and the quick is completes its planning
+
+# ===========================================
+
+# CATEGORIES
+# category_tanks
+# category_light_infantry
+# category_front_line
+# category_all_infantry
+# category_support_battalions
+# category_militia
+# category_all_armor
+# category_army
+# category_line_artillery
+# category_artillery
+# category_fighter
+# category_heavy_fighter
+# category_cas
+# category_special_forces
+# category_nav_bomber
+# category_tac_bomber
+# category_strat_bomber
+# category_scout_plane
+# category_recon
+# category_mountaineers
+# category_paratroopers
+# category_marines
+# category_anti_air
+# category_amphibious_tanks
+# category_support_artillery
+# category_cavalry
+# category_bus
+
+# ===========================================
+
+#infantry = {
+#		abbreviation = "INF"
+#		sprite = infantry
+#		map_icon_category = infantry
+#		
+#		priority = 600
+#		ai_priority = 200
+#		active = no
+#
+#		type = {
+#			infantry
+#		}
+#		
+#		#can_exfiltrate_from_coast = yes #Can this subunit board convoys from a non-port location. 
+#		#Intended for use with special forces marine templates; all non-support subunits in the division must have this flag set to yes
+#		
+#		group = infantry
+#		
+#		categories = {
+#			category_front_line
+#			category_light_infantry
+#			category_all_infantry
+#			category_army
+#		}
+#		
+#		combat_width = 2
+#		
+#		#Size Definitions
+#		max_strength = 25
+#		max_organisation = 60
+#		default_morale = 0.3
+#		manpower = 1000
+#
+#		#Misc Abilities
+#		training_time = 90
+#		suppression = 1.5
+#		weight = 0.5
+#		
+#		supply_consumption = 0.06
+#	
+#		need = {
+#			infantry_equipment = 100
+#		}
+#	}
