@@ -1,0 +1,78 @@
+sub_units = {
+	mechanized_flamethrower = {
+		abbreviation = "FMEC"
+		sprite = mechanized
+		map_icon_category = infantry
+		group = mobile
+		
+		active = yes
+		
+		priority = 600
+		ai_priority = 250
+		
+		# TYPE
+		type = {
+			mechanized
+		}
+
+		# CATEGORIES
+        categories = {
+        	category_front_line
+        	category_all_infantry
+        	category_army
+        }
+
+		# MODIFERS
+		max_organisation = 60
+        reliability = 0.8
+        weight = 0.1
+        combat_width = 2
+        maximum_speed = 0.5
+        supply_consumption = 0.15
+        default_morale = 0.3
+        manpower = 1200
+        training_time = 120
+        soft_attack = 0.30
+        hard_attack = 0.10
+        breakthrough = 0.15
+        defense = 0.10
+        max_strength = 20
+        armor_value = 5
+        ap_attack = 5
+
+		# EQUIPMENT NEEDED
+		need = {
+			mechanized_equipment = 40
+			infantry_equipment = 100
+		}
+
+		transport = mechanized_equipment
+
+		# REQUIRED EQUIPMENT
+        essential = {
+        	infantry_equipment
+        	mechanized_equipment
+        }
+
+		# TERRAIN
+		urban = {
+			movement = -0.10
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		plains = {
+			movement = 0.10
+			attack = 0.05
+		}
+		forest = {
+			movement = -0.15
+			attack = 0.10
+		}
+		mountain = {
+			movement = -0.15
+			attack = -0.05
+		}
+	}
+}

@@ -44,4 +44,27 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	# ====================================================
+
+	# MECHANIZED FLAMETHROWER
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_mechanized_flamethrower_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/mechanized_flamethrower.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_shock_troops_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/mechanized_flamethrower.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_mechanized_flamethrower_icon_small"
+		textureFile = "gfx/texticons/mechanized_flamethrower.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
 }
