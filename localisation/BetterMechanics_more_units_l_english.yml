@@ -1,4 +1,9 @@
 ﻿l_english:
+
+ # COMBAT
  desert_infantry:0 "Desert Infantry"
  shock_troops:0 "Shock Troops"
  mechanized_flamethrower:0 "Mechanized Flamethrower"
+
+ # SUPPORT
+ machine_gunner:0 "Machine Gunner"

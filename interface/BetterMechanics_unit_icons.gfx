@@ -55,7 +55,7 @@ spriteTypes = {
 	}
 	# SMALL
 	spriteType = {
-		name = "GFX_unit_shock_troops_icon_medium_white"
+		name = "GFX_unit_mechanized_flamethrower_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/mechanized_flamethrower.png"
 		noOfFrames = 2
 	}
@@ -67,4 +67,26 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	# ====================================================
+
+	# MACHINE GUNNER
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_machine_gunner_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/machine_gunner.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_machine_gunner_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/machine_gunner.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_machine_gunner_icon_small"
+		textureFile = "gfx/texticons/machine_gunner.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 }
