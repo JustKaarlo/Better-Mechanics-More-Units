@@ -1,0 +1,22 @@
+spriteTypes = {
+	# MACHINE GUNNER
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_machine_gunner_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_machine_gunner.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_machine_gunner_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_machine_gunner.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_machine_gunner_icon_small"
+		textureFile = "gfx/texticons/bm_machine_gunner.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+}

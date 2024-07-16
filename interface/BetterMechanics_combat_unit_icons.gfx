@@ -1,0 +1,68 @@
+spriteTypes = {
+	# DESERT INFANTRY
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_desert_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_desert_infantry.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_desert_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_desert_infantry.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_desert_infantry_icon_small"
+		textureFile = "gfx/texticons/bm_desert_infantry.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	# ====================================================
+
+	# SHOCK TROOPS
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_shock_troops_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_shock_troops.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_shock_troops_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_shock_troops.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_shock_troops_icon_small"
+		textureFile = "gfx/texticons/bm_shock_troops.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	# ====================================================
+
+	# MECHANIZED FLAMETHROWER
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_flamethrower_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_mechanized_flamethrower.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_flamethrower_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_mechanized_flamethrower.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_flamethrower_icon_small"
+		textureFile = "gfx/texticons/bm_mechanized_flamethrower.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+}

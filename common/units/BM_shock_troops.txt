@@ -1,5 +1,5 @@
 sub_units = {
-	shock_troops = {
+	bm_shock_troops = {
 		abbreviation = "SHT"
 		sprite = infantry
 		map_icon_category = infantry
@@ -26,19 +26,17 @@ sub_units = {
 		}
 
 		# MODIFERS
-		max_strength = 20
-		max_organisation = 70
-		default_morale = 0.30
+		max_strength = 25
+		max_organisation = 50
+		default_morale = 0.35
 		manpower = 1000
 		training_time = 120
-		suppression = 0
-		weight = 0.5
+		weight = 0.3
 		combat_width = 2
 
-		supply_consumption = 0.06
-		breakthrough = 1.5
-		maximum_speed = 1
-		hard_attack = 1.0
+		supply_consumption = 0.03
+		breakthrough = 0.5
+		soft_attack = 1.5
 
 		# EQUIPMENT NEEDED
 		need = {

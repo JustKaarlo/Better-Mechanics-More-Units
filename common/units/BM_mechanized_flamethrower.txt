@@ -1,5 +1,5 @@
 sub_units = {
-	mechanized_flamethrower = {
+	bm_mechanized_flamethrower = {
 		abbreviation = "FMEC"
 		sprite = mechanized
 		map_icon_category = infantry
@@ -23,22 +23,23 @@ sub_units = {
         }
 
 		# MODIFERS
+
 		combat_width = 2
-		soft_attack = 0.15
-		hard_attack = 4.5
-		max_strength = 25
-		max_organisation = 60
-		default_morale = 0.30
+		max_strength = 30
+		max_organisation = 50
+		default_morale = 0.3
 		manpower = 1200
 		training_time = 120
-		weight = 1.5
-		supply_consumption = 0.17
+		weight = 2
+		supply_consumption = 0.15
+		soft_attack = 0.1
+		hard_attack = 4.0
+		breakthrough = 0.15
 
 		# EQUIPMENT NEEDED
 		need = {
 			mechanized_equipment = 40
 			infantry_equipment = 100
-			support_equipment = 10
 		}
 
 		transport = mechanized_equipment
@@ -50,23 +51,29 @@ sub_units = {
 
 		# TERRAIN
 		urban = {
-			movement = -0.10
-			attack = 0.05
+			attack = 0.10
 		}
 		fort = {
-			attack = 0.05
-		}
-		plains = {
-			movement = 0.10
 			attack = 0.10
 		}
 		forest = {
-			movement = -0.15
-			attack = 0.10
+			attack = -0.2
 		}
 		mountain = {
-			movement = -0.15
 			attack = -0.05
+		}
+		jungle = {
+			attack = -0.3
+		}
+		marsh = {
+			attack = -0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
 		}
 	}
 }
