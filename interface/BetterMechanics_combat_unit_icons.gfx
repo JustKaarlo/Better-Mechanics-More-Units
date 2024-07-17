@@ -65,4 +65,50 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+
+	# ====================================================
+
+	# MECHANIZED SHOCKTROOPS
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_shocktroops_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_mechanized_shocktroops.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_shocktroops_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_mechanized_shocktroops.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_mechanized_shocktroops_icon_small"
+		textureFile = "gfx/texticons/bm_mechanized_shocktroops.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	# ====================================================
+
+	# MOTORIZED SHOCKTROOPS
+	# LARGE
+	spriteType = {
+		name = "GFX_unit_bm_motorized_shocktroops_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/bm_motorized_shocktroops.png"
+		noOfFrames = 2
+	}
+	# SMALL
+	spriteType = {
+		name = "GFX_unit_bm_motorized_shocktroops_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/bm_motorized_shocktroops.png"
+		noOfFrames = 2
+	}
+	# TEXTICON
+	spriteType = {
+		name = "GFX_unit_bm_motorized_shocktroops_icon_small"
+		textureFile = "gfx/texticons/bm_motorized_shocktroops.png"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 }

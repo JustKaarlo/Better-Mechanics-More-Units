@@ -3,6 +3,8 @@
  bm_desert_infantry:0 "Desert Infantry"
  bm_shock_troops:0 "Shock Troops"
  bm_mechanized_flamethrower:0 "Mech. Flamethrower"
+ bm_mechanized_shocktroops:0 "Mech. Shocktroops"
+ bm_motorized_shocktroops:0 "Mot. Shocktroops"
 
  # SUPPORT
  bm_machine_gunner:0 "Machine Gun Company"
